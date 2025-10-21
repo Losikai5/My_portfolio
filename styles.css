@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.log{
+    color: #222;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+}
+.intro {
+    flex: 1;
+    font-size: 35px;
+    line-height: 1.6;
+    text-align: left;          
+    margin-left: 10px;
+    font-weight: 300;
+    color: #222;
+}
+ 
+#about-container {
+    display: flex;
+    align-items: center;        /* Vertically centers image and text */
+    justify-content: center;    /* Centers the pair in the page */
+    flex-direction: row-reverse;/* 🔥 Puts image on the RIGHT side */
+    gap: 30px;                  /* Adds space between image and text */
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px;
+    /* flex-wrap: wrap;            */
+}
+.info{
+opacity: 0.9;
+font-size: 30px;
+}
+.myinfo{
+    opacity: 0.67;
+font-size: 25px;
+    
+}
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;         /* Perfect circle */
+    object-fit: fill;          /* Keeps aspect ratio natural */
+    border: 2px solid #333;     /* Clean border */
+}
+h2{
+    text-align: center;
+}
+.fa-brands.fa-github {
+    color: black;
+}
+.fa-brands.fa-square-linkedin{
+    color: blue;
+
+}
+.fa-brands.fa-whatsapp{
+    color: green;
+}
+.fa-brands.fa-facebook{
+    color: blue;    
+}
+.fa-brands.fa-x-twitter{
+    color: black;
+}
+.fa-brands.fa-instagram{
+    color: brown;
+}
+.social-icons{
+    text-align: center;
+    margin-right: 20px;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.fa-brands.fa-facebook:hover{
+    border: 2px solid;
+    border-radius: 15px;
+    color: blue;
+
+}
+.fa-brands.fa-square-linkedin:hover{
+    border: 2px solid;
+    border-radius: 15px;
+    color: blue;
+
+
+}
+.fa-brands.fa-whatsapp:hover{
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+.fa-brands.fa-x-twitter:hover{
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+.fa-brands.fa-instagram:hover{
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+.fa-brands.fa-github:hover{
+    border: 2px solid;
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+    margin-top: 25px;
+}
+.navbar ul {
+    list-style-type: none;
+    float: right;
+}
+.navbar li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.navbar li:hover {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+     transition: all 0.5s ease-in-out;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #949292;
+}
+#projects {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 200;
+    
+}
