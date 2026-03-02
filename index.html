@@ -3,65 +3,290 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Losika Nicholas Losio | Data Scientist</title>
+  <meta name="description" content="Losika Nicholas Losio — Data Scientist helping businesses make better decisions through data analysis, machine learning, and visualization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://kit.fontawesome.com/b3b7948e30.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
-    <nav class="navbar">
-        <span class="log">MY PORTFOLIO</span>
-        <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-        
-       </ul>
-     </nav>
 
-<main class="profile">
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-accent">L</span>osika
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
 
-  <div id="about-container">
-  <img src="photo_2025-09-02_23-14-32.jpg" alt="Cartoon picture of Losika Nicholas Losio" class="image" />
-      <p class="intro">
-        <strong class="info">Hi, I am <br> LOSIKA NICHOLAS LOSIO</strong> 
-        <br>
-        <span class="myinfo"> your handy, simple, and effective Data Scientist.<br />
-          
-        Ready to work hand-in-hand with you to make better decisions based on your data.</span>
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Losika Nicholas<br /><span class="name-accent">Losio</span></h1>
+      <p class="hero-role">
+        <span id="typed-text"></span><span class="cursor">|</span>
       </p>
- </div>
-
-    <h2 id="socials">My Socials:</h2>
-    <div class="social-icons">
-      <a href="https://github.com/Losikai5" target="_blank" aria-label="GitHub profile" rel="noopener noreferrer">
-        <i class="fa-brands fa-github fa-2x"></i>
-      </a>
-      <a href="https://linkedin.com/in/losika-nicholas-1ba9ab29a" target="_blank" aria-label="LinkedIn profile" rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin fa-2x"></i>
-      </a>
-      <a href="https://wa.me/+256704800482" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
-        <i class="fa-brands fa-whatsapp fa-2x"></i>
-      </a>
-      <a href="https://facebook.com/Losika Nicholas" target="_blank" aria-label="Facebook profile" rel="noopener noreferrer">
-        <i class="fa-brands fa-facebook fa-2x"></i>
-      </a>
-      <a href="https://twitter.com/@losika_nicholas" target="_blank" aria-label="X (Twitter) profile" rel="noopener noreferrer">
-        <i class="fa-brands fa-x-twitter fa-2x"></i>
-      </a>
-      <a href="https://instagram.com/losikanicholas" target="_blank" aria-label="Instagram profile" rel="noopener noreferrer">
-        <i class="fa-brands fa-instagram fa-2x"></i>
-      </a>
+      <p class="hero-tagline">
+        Transforming raw data into meaningful insights that drive smarter decisions.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i> Hire Me
+        </a>
+        <a href="#projects" class="btn btn-secondary">
+          <i class="fa-solid fa-folder-open"></i> View Work
+        </a>
+      </div>
     </div>
-    
-    <section id="home">
-      <h2>My Projects</h2>
+    <div class="hero-image-wrap">
+      <div class="hero-image-glow"></div>
+      <img
+        src="WhatsApp Image 2025-11-04 at 21.39.57_40c2d8b0.jpg"
+        alt="Portrait of Losika Nicholas Losio"
+        class="hero-image"
+      />
+    </div>
+    <!-- Decorative blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </section>
 
-    </section>
-    <section id="Projects"></section>
-    <section id="contact"></section>
-    <section id="About"></section>
-  </main>
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="section about">
+    <div class="section-header reveal">
+      <span class="section-tag">Who I Am</span>
+      <h2>About Me</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm a passionate <strong>Data Scientist</strong> based in Uganda with a drive to uncover the stories hidden in data.
+          I specialize in building end-to-end data pipelines, predictive models, and interactive visualizations that
+          empower organizations to make evidence-based decisions.
+        </p>
+        <p>
+          Whether it's cleaning messy datasets, training machine learning models, or building APIs to serve predictions, I love
+          every step of the data journey. I'm always learning, always building, and always ready to collaborate.
+        </p>
+        <div class="about-links">
+          <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://linkedin.com/in/losika-nicholas-1ba9ab29a" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Technologies Used</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Dedication</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="section skills">
+    <div class="section-header reveal">
+      <span class="section-tag">What I Know</span>
+      <h2>My Skills</h2>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-code"></i> Programming</h3>
+        <div class="skill-pills">
+          <span class="pill">Python</span>
+          <span class="pill">SQL</span>
+          <span class="pill">R</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Bash</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-brain"></i> Machine Learning</h3>
+        <div class="skill-pills">
+          <span class="pill">Scikit-Learn</span>
+          <span class="pill">TensorFlow</span>
+          <span class="pill">Keras</span>
+          <span class="pill">XGBoost</span>
+          <span class="pill">NLP</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-chart-line"></i> Data &amp; Visualization</h3>
+        <div class="skill-pills">
+          <span class="pill">Pandas</span>
+          <span class="pill">NumPy</span>
+          <span class="pill">Matplotlib</span>
+          <span class="pill">Seaborn</span>
+          <span class="pill">Power BI</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3><i class="fa-solid fa-server"></i> Tools &amp; Platforms</h3>
+        <div class="skill-pills">
+          <span class="pill">FastAPI</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">Git</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Jupyter</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="section projects">
+    <div class="section-header reveal">
+      <span class="section-tag">What I've Built</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fa-solid fa-pizza-slice"></i></div>
+        <h3>Pizza Ordering API</h3>
+        <p>A full-featured REST API built with FastAPI and PostgreSQL featuring JWT authentication, order management, review system, and comprehensive CRUD operations.</p>
+        <div class="project-tech">
+          <span class="tech-tag">FastAPI</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">JWT</span>
+          <span class="tech-tag">Python</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer" class="project-link">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>Summarization AI Agent</h3>
+        <p>An intelligent middleware-based AI agent that leverages LLM summarization capabilities. Built with custom middleware architecture for extensible agent pipelines.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">LLM</span>
+          <span class="tech-tag">Jupyter</span>
+          <span class="tech-tag">Middleware</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer" class="project-link">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fa-solid fa-chart-bar"></i></div>
+        <h3>Data Analysis Dashboard</h3>
+        <p>An exploratory data analysis project featuring interactive visualizations, statistical summaries, and machine learning model prototyping for real-world datasets.</p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Seaborn</span>
+          <span class="tech-tag">Scikit-Learn</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer" class="project-link">
+            <i class="fa-brands fa-github"></i> Code
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="section contact">
+    <div class="section-header reveal">
+      <span class="section-tag">Get In Touch</span>
+      <h2>Contact Me</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>Let's work together</h3>
+        <p>Got a project, collaboration, or question? I'm always open to new opportunities and conversations.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/+256704800482" target="_blank" rel="noopener noreferrer">+256 704 800 482</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer">github.com/Losikai5</a>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://linkedin.com/in/losika-nicholas-1ba9ab29a" target="_blank" rel="noopener noreferrer">Losika Nicholas</a>
+          </div>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/Losikai5" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/losika-nicholas-1ba9ab29a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/+256704800482" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://twitter.com/losika_nicholas" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://instagram.com/losikanicholas" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com/losikanicholas" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="John Doe" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="john@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Project Collaboration" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+        <p id="form-status" style="display:none;text-align:center;margin-top:12px;"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p>Designed &amp; Built by <span class="name-accent">Losika Nicholas Losio</span></p>
+    <p class="footer-sub">© 2025 — All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
